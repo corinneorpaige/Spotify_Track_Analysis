@@ -96,6 +96,7 @@ The model returned a high silhouette score of 0.877. However, 43,199 tracks belo
 
 I have used a bar chart to display visually how unbalanced the cluster membership is, instead of seeing the clusters through a dendrogram. I am using a box-and-whisker plot to see the distribution of track popularity across this sampled data.
 
+### Analysis: By what characteristics can we group/cluster tracks? What subcategories of tracks exist?
 This Hierarchichal Agglomerative Clustering algorithm did not allow us to cluster and discover subgenres of tracks in a meaningful way. It grouped the randomly sampled data into 2 clusters or groups and returned a high silhouette score, which means that the clusters are separable and cohesive. Separation and cohesion means that group members are close to each other and far away from the other cluster. These results were initially promising. However, all points except 1 (43,199) belong to the first cluster, Cluster 0, and the other point makes up its own cluster. This implies that the relationships between individual points and genres and subgenres is not able to be viewed through this type of clustering.
 
 To attempt this clustering, I would test out other algorithms like K-Means, Gaussian Mixture Models, and DBSCAN.
