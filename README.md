@@ -59,9 +59,9 @@ I chose to investigate 3 out of the 6 questions I originally posed:
 
 ## Results:
 
-Write-Up: See Results_Summary.md
+**Write-Up:** See **Results_Summary.md**
 
-Video Presentation: See Results_Presentation.md for link to the video. The slides are uploaded as 392 Final Presentation.pdf.
+**Video Presentation:** See **Results_Presentation.md** for link to the video. The slides are uploaded as 392 Final Presentation.pdf.
 
 ## Known Errors:
 
