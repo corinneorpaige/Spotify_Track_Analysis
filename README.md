@@ -83,3 +83,4 @@ Random DF Sampling: https://pandas.pydata.org/pandas-docs/stable/reference/api/p
 
 Spotify API: https://developer.spotify.com/documentation/web-api/reference/#objects-index
 
+YouTube Thumbnail: https://damien.pobel.fr/post/youtube-video-github/
