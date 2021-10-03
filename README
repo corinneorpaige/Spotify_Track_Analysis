@@ -1,1 +1,21 @@
-#hi
+### Resources Used:
+
+Merge: https://towardsdatascience.com/why-and-how-to-use-merge-with-pandas-in-python-548600f7e738
+
+Error: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+Renaming Columns: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.rename.html?highlight=rename#pandas.DataFrame.rename
+
+Dropping Columns: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.drop.html
+
+LASSO Documentation: https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Lasso.html#sklearn.linear_model.Lasso
+
+String Shortening:Lhttps://www.kite.com/python/answers/how-to-remove-everything-after-a-character-in-a-string-in-python
+
+Fct_lump for Python: https://stackoverflow.com/questions/62996246/equivalent-of-fct-lump-in-pandas
+
+Geom_bar: https://plotnine.readthedocs.io/en/stable/generated/plotnine.geoms.geom_bar.html?highlight=geom_bar
+
+Random DF Sampling: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.sample.html
+
+Spotify API: https://developer.spotify.com/documentation/web-api/reference/#objects-index
