@@ -4,7 +4,7 @@
 2. **Do different genres see varying levels of popularity, and does this change over time?**
 3. **By what characteristics can we group/cluster tracks? What subcategories of tracks exist?**
 
-### 1. How can we predict the popularity of a track and what are the most important predictors?
+## 1. How can we predict the popularity of a track and what are the most important predictors?
 
 I started to answer this question by using linear regression with regularization. I sought to find the best regularization technique for this data, which was Ridge.
 Here are the r-squared and mean-squared error values:
@@ -41,7 +41,9 @@ The results of this model can be explained through the r-squared scores shown. T
 
 It is worth noting that the most important variables for the regression, those with the largest magnitudes, are the artist's popularity and the song's release date. Spotify is a relatively new streaming service started within the last 15 years. As its consumer base has grown, it makes sense that music produced and listened to today would be more popular than music from a long time ago. The artist's popularity also is significant because they're usually well-known, which means they likely have the money to advertise their song and make it popular because they are popular. Interestingly, liveness and acousticness have negative impacts on whether the song will be popular. The negative liveness impact may be due to the "live" version of songs not being normally listened to. Acousticness encompasses a lot of instrumental or classical music, which is not as popular as a lot of vocal-based music. Lastly, the overall average loudness of the track has a positive impact; apparently, the louder a song is across its runtime, the better people like it. 
 
-### 2. Do different genres see varying levels of popularity, and does this change over time?
+
+
+## 2. Do different genres see varying levels of popularity, and does this change over time?
 
 Let's start by looking at the amount of tracks released per year from 1922 to May 2021.
 
@@ -81,7 +83,8 @@ In a word, yes! These graphs show the top 10 genres for all the songs over each 
 Another important consideration is the ever-growing "other" category in the decade graphs. This shows that the variety of genres has been growing throughout the 1922-2021 period, which also means that Spotify has a large collection of different music. This increase in genre diversity implies advancement in music and in whose voices are heard by recording companies.
 
 
-### 3. By what characteristics can we group/cluster tracks? What subcategories of tracks exist?
+
+## 3. By what characteristics can we group/cluster tracks? What subcategories of tracks exist?
 
 I attempted to cluster tracks using Hierarchical Agglomerative Clustering since it easily shows relationships between clusters, which would allow us to see subcategories or larger relationships between different tracks. I originally planned to use a dendrogram to see this relationships, but the clustering did not turn out as expected.
 
