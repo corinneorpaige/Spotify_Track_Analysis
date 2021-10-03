@@ -58,7 +58,9 @@ I chose to investigate 3 out of the 6 questions I originally posed:
 3. Run FinalProjectCode.ipynb
 
 ## Results:
+
 Write-Up: See Results_Summary.md
+
 Video Presentation: See Results_Presentation.md for link to the video. The slides are uploaded as 392 Final Presentation.pdf.
 
 ## Known Errors:
