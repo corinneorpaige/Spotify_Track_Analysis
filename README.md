@@ -1,4 +1,7 @@
-## Dataset from Kaggle:
+# CPSC 392 Final Project: Spotify Tracks from 1922-2021 
+*Spring 2021 CPSC 392-04*
+
+## Spotify Data from Kaggle:
 https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks
 
 ## Motivation for Project
