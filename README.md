@@ -1,7 +1,7 @@
 # CPSC 392 Final Project: Spotify Tracks from 1922-2021 
 *Spring 2021 CPSC 392-04*
 
-## Spotify Data from Kaggle:
+## Spotify Data from Kaggle
 https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks
 
 ## Motivation for Project
@@ -20,7 +20,7 @@ I chose to investigate 3 out of the 6 questions I originally posed:
 2. **Do different genres see varying levels of popularity, and does this change over time?**
 3. **By what characteristics can we group/cluster tracks? What subcategories of tracks exist?**
 
-## Variables:
+## Variables
 ### tracks.csv and artists.csv
     
 #### Primary:
@@ -57,17 +57,17 @@ I chose to investigate 3 out of the 6 questions I originally posed:
 2. Open FinalProjectCode.ipynb and adjust the file paths for your system, ensuring that tracks.csv and artists.csv will load and all appropriate libraries are installed
 3. Run FinalProjectCode.ipynb
 
-## Results:
+## Results
 
 **Write-Up:** See Results_Summary.md
 
 **Video Presentation:** See Results_Presentation.md for link to the video. The slides are uploaded as 392 Final Presentation.pdf.
 
-## Known Errors:
+## Known Errors
 
 Mistake in generating factor levels from 'Key' variable
 
-## Resources Used:
+## Resources Used
 
 Merge: https://towardsdatascience.com/why-and-how-to-use-merge-with-pandas-in-python-548600f7e738
 
