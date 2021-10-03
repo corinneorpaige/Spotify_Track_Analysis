@@ -52,7 +52,7 @@ I chose to investigate 3 out of the 6 questions I originally posed:
 - release_date (Date of release mostly in yyyy-mm-dd format, however precision of date may vary)
 - name (Name of the song)
 
-## Instructions:
+## Instructions
 1. Download tracks.csv and artists.csv from the above Kaggle link and FinalProjectCode.ipynb from this repository.
 2. Open FinalProjectCode.ipynb and adjust the file paths for your system, ensuring that tracks.csv and artists.csv will load and all appropriate libraries are installed
 3. Run FinalProjectCode.ipynb
