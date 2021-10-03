@@ -1,5 +1,5 @@
 # Results Summary
-## Answers to the three questions posed:
+## Questions Posed:
 1. **How can we predict the popularity of a track and what are the most important predictors?**
 2. **Do different genres see varying levels of popularity, and does this change over time?**
 3. **By what characteristics can we group/cluster tracks? What subcategories of tracks exist?**
@@ -99,3 +99,7 @@ I have used a bar chart to display visually how unbalanced the cluster membershi
 This Hierarchichal Agglomerative Clustering algorithm did not allow us to cluster and discover subgenres of tracks in a meaningful way. It grouped the randomly sampled data into 2 clusters or groups and returned a high silhouette score, which means that the clusters are separable and cohesive. Separation and cohesion means that group members are close to each other and far away from the other cluster. These results were initially promising. However, all points except 1 (43,199) belong to the first cluster, Cluster 0, and the other point makes up its own cluster. This implies that the relationships between individual points and genres and subgenres is not able to be viewed through this type of clustering.
 
 To attempt this clustering, I would test out other algorithms like K-Means, Gaussian Mixture Models, and DBSCAN.
+
+## General Conclusions
+
+The linear model did not perform well, but useful insights gathered were from the LASSO and Ridge coefficients. It is fair to say that this linear model should not be used to predict a track's popularity. The Hierarchical Agglomerative Clustering did not work on this data, but finding a different way to cluster this data would be interesting. In the future, I would try different predictive models and clustering algorithms. There are many ways to use visualizations with data; the decade breakdown of genre was successful in communicating the diversification of recorded and produced music over time. One important thing to consider is genre classifications. I merged the data by artist, so every song was assigned the general genres of the artists. Since artists change genres over time, and their work can span those changes, some songs may be completely misclassified. Especially with more accurate genre information, creating new visualizations could be one of the best ways to expand on this project. 
