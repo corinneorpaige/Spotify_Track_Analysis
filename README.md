@@ -79,7 +79,7 @@ Dropping Columns: https://pandas.pydata.org/pandas-docs/stable/reference/api/pan
 
 LASSO Documentation: https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Lasso.html#sklearn.linear_model.Lasso
 
-String Shortening:Lhttps://www.kite.com/python/answers/how-to-remove-everything-after-a-character-in-a-string-in-python
+String Shortening: https://www.kite.com/python/answers/how-to-remove-everything-after-a-character-in-a-string-in-python
 
 Fct_lump for Python: https://stackoverflow.com/questions/62996246/equivalent-of-fct-lump-in-pandas
 
