@@ -65,7 +65,7 @@ I chose to investigate 3 out of the 6 questions I originally posed:
 
 ## Known Errors
 
-Mistake in generating factor levels from 'Key' variable
+The results in the write-up and presentations now differ slightly due to the original code being updated.
 
 ## Resources Used
 
